@@ -1,0 +1,12 @@
+"DepotBuild"
+{
+	"DepotID" "WIN_DEPOT"
+	"ContentRoot" "../../Builds/windows/"
+	"FileMapping"
+	{
+		"LocalPath" "*"
+		"DepotPath" "."
+		"Recursive" "1"
+	}
+	"FileExclusion" "*_BackUpThisFolder_ButDontShipItWithYourGame*"
+}

@@ -1,0 +1,13 @@
+"AppBuild"
+{
+	"AppID" "APPID"
+	"Desc" "Edmund Fitzgerald build"
+	"BuildOutput" "../../Builds/steam-output/"
+	"ContentRoot" "../../Builds/"
+	"SetLive" ""
+	"Depots"
+	{
+		"WIN_DEPOT" "depot_windows.vdf"
+		"MAC_DEPOT" "depot_mac.vdf"
+	}
+}

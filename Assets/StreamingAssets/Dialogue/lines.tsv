@@ -1,0 +1,173 @@
+# Every spoken line in the game. Columns are TAB separated:
+# id	speaker	channel	text	direction
+# channel: Room (in the pilothouse), Phone (sound-powered phone), Radio (VHF), Broadcast (AM radio)
+# To record a line, save it as Assets/StreamingAssets/Voice/<id>.wav (or .ogg / .mp3). Dry and close-miked;
+# the game adds the radio and phone filtering itself.
+id	speaker	channel	text	direction
+# ---------------------------------------------------------------- 2:40 PM, opening
+intro_mate_01	MATE	Room	Wind's backed around northwest, Captain. She's starting to roll some.	From the chart room behind you. Calm, a professional. Raising his voice a little over the wind.
+intro_capt_01	CAPTAIN	Room	I feel it. Hold her on one-three-zero. We'll be in the lee of Whitefish by suppertime.	Unhurried. You've been doing this for forty years.
+intro_mate_02	MATE	Room	Aye. Weather office went to storm warnings this morning. All of Lake Superior.	Matter-of-fact.
+# ---------------------------------------------------------------- 2:52 PM, the Anderson checks in
+and_0252_01	ANDERSON	Radio	Fitzgerald, this is the Anderson. You on here?	The captain of the ship ten miles astern. Old friend. Relaxed.
+capt_and_0252_01	CAPTAIN	Radio	Go ahead, Anderson.	Holding the handset. Clipped radio manner.
+and_0252_02	ANDERSON	Radio	We're seeing gusts to fifty back here. Seas twelve, fifteen feet and building. How's she riding?	Casual concern.
+capt_and_0252_02	CAPTAIN	Radio	Rolling some. Nothing she hasn't done before. We're going to haul on down past Caribou and run for Whitefish.	Confident.
+and_0252_03	ANDERSON	Radio	Roger that. We'll be right behind you. Anderson clear.	Easy.
+# ---------------------------------------------------------------- 3:05 PM, engine room
+chief_0305_01	CHIEF	Phone	Engine room. She's running fine, Captain, but the wheel's coming out of the water when the stern lifts. Shaft's racing on us.	Phone line, engine noise behind him. Practical, a bit gruff.
+# ---------------------------------------------------------------- 3:20 PM, near Six Fathom Shoal
+mate_shoal_01	MATE	Room	What was that? You feel that, Captain?	Startled, coming into the pilothouse.
+mate_shoal_02	MATE	Room	Felt like she bumped something. We're awful close to that shoal off Caribou.	Uneasy, half to himself.
+# ---------------------------------------------------------------- 3:30 PM, damage
+watch_0330_01	WATCHMAN	Phone	Captain, deck watch. There's a fence rail down on the starboard side. And two of the vent caps are gone off the ballast tanks.	Shouting into the phone, wind howling. Young-ish.
+watch_0330_02	WATCHMAN	Phone	And Captain... she's got a list on her. To starboard. I can see it from back here.	Lower. Worried.
+capt_dmg_01	CAPTAIN	Radio	Anderson, this is the Fitzgerald. I have a fence rail down, two vents lost or damaged, and a list. I'm checking down. Will you stay by me till I get to Whitefish?	Measured, controlled. This is serious but you won't let it show.
+and_dmg_01	ANDERSON	Radio	Charlie on that, Fitzgerald. Do you have your pumps going?	A beat of concern under the calm.
+capt_dmg_02	CAPTAIN	Radio	Yes. Both of them.	Short.
+capt_dmg_02b	CAPTAIN	Radio	Starting them now.	Short. A little irritated with yourself.
+and_dmg_02	ANDERSON	Radio	We'll stay with you. Anderson standing by on sixteen.	Steady.
+and_dmg_late_01	ANDERSON	Radio	Fitzgerald, Anderson. You're riding awful low from what I can see back here. Everything all right up there?	Checking in, not alarmed yet.
+# ---------------------------------------------------------------- 4:10 PM, radars gone
+mate_radar_01	MATE	Room	Captain, I've lost the radar. Both sets. The picture's just gone.	Coming from the radar. Flat disbelief.
+mate_radar_02	MATE	Room	Must have carried away the scanners up top.	Grim.
+capt_radar_01	CAPTAIN	Radio	Anderson, this is the Fitzgerald. I've lost both radars. Can you keep track of me and give me some navigational help?	Calm. You need them now.
+and_radar_01	ANDERSON	Radio	We'll do that, Fitzgerald. We've got you on the scope, about ten miles ahead of us. We'll keep you posted.	Reassuring.
+and_radar_late_01	ANDERSON	Radio	Fitzgerald, this is the Anderson. How are you making out up there?	Friendly.
+and_nav_01	ANDERSON	Radio	Fitzgerald, Anderson. You're bearing one-four-zero from us. Whitefish is about twenty-five miles off your bow. Steer about one-four-one.	Reading off the radar. Precise.
+capt_nav_01	CAPTAIN	Radio	One-four-one. Thanks, Anderson.	Brief.
+# ---------------------------------------------------------------- 4:40 PM, Whitefish dark
+mate_whitefish_01	MATE	Room	Captain, I can't get the Whitefish beacon on the direction finder. Nothing at all. And there's no light.	Puzzled, a little scared.
+capt_cg_beacon_01	CAPTAIN	Radio	Coast Guard Sault, this is the Edmund Fitzgerald. Is the light and the radio beacon at Whitefish Point working?	Formal radio voice.
+cg_beacon_01	COASTGUARD	Radio	Fitzgerald, Coast Guard Group Sault. Our monitor shows the Whitefish beacon is off the air. Power's out on the point. We'll get somebody on it. Over.	Radioman, young, by the book.
+capt_cg_beacon_02	CAPTAIN	Radio	Roger. Fitzgerald out.	Clipped.
+# ---------------------------------------------------------------- 5:00 PM, Avafors
+capt_ava_01	CAPTAIN	Radio	Any vessel near Whitefish Point, this is the Edmund Fitzgerald. Is the light at Whitefish working?	Calling blind.
+ava_01	AVAFORS	Radio	Fitzgerald, this is the Avafors. We're just coming around Whitefish now. The light's out and the beacon's out too. It's a mess out here.	A Lakes pilot on a foreign ship. Plain-spoken Midwesterner.
+capt_ava_02	CAPTAIN	Radio	I've got a bad list. Lost both radars. And I'm taking heavy seas over the deck. One of the worst seas I've ever been in.	Tired. The truest thing you've said all day.
+ava_02	AVAFORS	Radio	We're getting it too. Seas are twenty-five feet out here. Good luck to you, Fitzgerald.	Sober.
+capt_ava_aside	CAPTAIN	Room	Don't allow nobody on deck.	Turning away from the handset, to someone in the pilothouse. Sharp.
+ava_call_01	AVAFORS	Radio	Fitzgerald, Avafors. Heard you asking about Whitefish. The light's back on now, but the beacon's still out. How are you making out?	Helpful.
+# ---------------------------------------------------------------- 5:20 PM, dark
+chief_0520_01	CHIEF	Phone	Captain, engine room. Pumps are working hard. Whatever's coming in, it's coming in steady.	Not panicking. Not happy.
+# ---------------------------------------------------------------- 5:45 PM, big seas
+watch_0545_01	WATCHMAN	Phone	Captain! That one came clean over the hatches! Whole deck aft is under water!	Shouting, wind and water roaring.
+mate_0545_01	MATE	Room	She's slow coming back up from these, Captain.	Quiet, close by. Watching the clinometer.
+# ---------------------------------------------------------------- 6:15 PM, Coast Guard broadcast
+cg_secur_01	COASTGUARD	Radio	Sécurité, sécurité, sécurité. This is Coast Guard Group Sault Ste. Marie. Storm warnings remain in effect for all of Lake Superior. Northwest winds fifty to sixty knots, higher in gusts. Waves eighteen to twenty-five feet. All vessels seek shelter. Sault Coast Guard out.	Pronounced "say-cure-ee-tay". Official broadcast, flat and deliberate.
+# ---------------------------------------------------------------- 6:30 PM
+chief_0630_01	CHIEF	Phone	Captain... we've got water in the tunnel. Not much yet. Pumps are keeping up. For now.	The first crack in his voice.
+# ---------------------------------------------------------------- 6:45 PM, the Anderson takes two big ones
+and_0645_01	ANDERSON	Radio	Fitzgerald, Anderson. We just took two big ones over the stern. Water up over the hatch covers. Watch yourself, they're headed your way.	Shaken, quickly recovering.
+capt_0645_01	CAPTAIN	Radio	Roger. We'll watch for them.	Quiet.
+# ---------------------------------------------------------------- 7:00 PM
+mate_0700_01	MATE	Room	Whitefish is about fifteen miles off, Captain. We'll be in the lee inside the hour.	Hope. Almost relief.
+# ---------------------------------------------------------------- 7:10 PM, the last exchange
+and_final_01	ANDERSON	Radio	Fitzgerald, this is the Anderson. Have you checked down? There's a target nineteen miles ahead of us, you'll clear it. By the way, how are you making out with your problems?	Routine. Friendly. He has no idea.
+capt_final_01	CAPTAIN	Radio	We are holding our own.	The last words. Plain, steady, almost offhand. Do several takes.
+and_final_02	ANDERSON	Radio	Okay, fine. I'll be talking to you later.	Casual sign-off.
+# ---------------------------------------------------------------- the end
+mate_end_01	MATE	Room	Captain, she's not coming up—	Cut off mid-word. Do not finish the sentence.
+# ---------------------------------------------------------------- orders: captain
+capt_order_pumps	CAPTAIN	Phone	Engine room, start the ballast pumps. Both of them.	Firm.
+capt_order_pumps_off	CAPTAIN	Phone	Engine room, secure the ballast pumps.	Firm.
+capt_order_sound	CAPTAIN	Phone	Have somebody sound the tanks and let me know.	Businesslike.
+capt_order_damage	CAPTAIN	Phone	Deck watch. What's it look like back there?	Over the noise.
+capt_order_nodeck	CAPTAIN	Room	Pass the word. Nobody goes out on deck. Nobody.	Hard.
+capt_order_engine	CAPTAIN	Phone	Chief, how's she running?	Plain.
+capt_order_radar	CAPTAIN	Room	Mate, what have you got on the radar?	Over your shoulder.
+capt_order_wheel	CAPTAIN	Room	Wheelsman, take her. Hold her steady on this heading.	Handing off.
+capt_order_position	CAPTAIN	Room	Where are we, Mate?	Over your shoulder.
+capt_order_lifejackets	CAPTAIN	Room	Pass the word. Everybody into their life jackets.	Quiet and very calm. You don't want to frighten anyone.
+capt_order_coffee	CAPTAIN	Phone	Galley, send some coffee up to the pilothouse.	Easy. A normal day.
+# ---------------------------------------------------------------- orders: responses
+chief_pumps_ok	CHIEF	Phone	Both pumps, aye. Pumping now.	Quick.
+chief_pumps_off	CHIEF	Phone	Securing the pumps... aye, Captain.	Doubtful pause before "aye".
+watch_sound_dry	WATCHMAN	Phone	Tanks are dry, Captain. Nothing in them you wouldn't expect.	Bored.
+watch_sound_some	WATCHMAN	Phone	Taking some water in the starboard tanks, Captain. Two, three feet.	Concerned.
+watch_sound_bad	WATCHMAN	Phone	There's water in more tanks than I'd like, Captain. Six, eight feet in some. Pumps aren't gaining.	Worried.
+watch_sound_worse	WATCHMAN	Phone	It's coming in faster than we can get it out, Captain.	Scared, trying not to be.
+watch_damage_none	WATCHMAN	Phone	All secure, Captain. Hatch clamps are holding. Lot of water coming over, but she's tight.	Shouting over wind.
+watch_damage_rail	WATCHMAN	Phone	Fence rail's down on the starboard side, couple of vent caps gone. Still taking water over the deck.	Shouting over wind.
+watch_damage_heavy	WATCHMAN	Phone	I can't hardly see the deck aft, Captain. It's green water over the hatches every other sea.	Shouting, rattled.
+mate_nodeck	MATE	Room	Aye, Captain. I'll tell the galley and the watch.	Behind you.
+chief_engine_ok	CHIEF	Phone	Steady as she goes down here, Captain. Shaft races when the stern lifts, but she's holding.	Phone. Engine noise.
+chief_engine_list	CHIEF	Phone	She's fine down here. I can feel that list though. Everything's leaning.	Phone.
+chief_engine_late	CHIEF	Phone	We're making turns. Don't know how much longer the pumps can keep up.	Phone. Tired.
+mate_radar_ok	MATE	Room	Anderson's about ten miles astern. Caribou's off to the west. Nothing else out here but us.	At the radar.
+mate_radar_dead	MATE	Room	Nothing, Captain. Both screens are dead.	At the radar.
+wheel_ack	WHEELSMAN	Room	Steady as she goes, aye, Captain.	Right beside you.
+wheel_return	WHEELSMAN	Room	You have the wheel, Captain.	Stepping back.
+mate_pos_40	MATE	Room	Still a long way off, Captain. Forty miles to Whitefish, give or take.	At the chart table.
+mate_pos_30	MATE	Room	About thirty miles to Whitefish, Captain.	At the chart table.
+mate_pos_20	MATE	Room	Twenty miles to Whitefish, Captain. Getting there.	At the chart table.
+mate_pos_15	MATE	Room	Fifteen miles off Whitefish. Almost to the lee.	At the chart table.
+mate_pos_off	MATE	Room	Captain, we're well off the course line. Whitefish is the other way.	At the chart table, alarmed.
+mate_lifejackets	MATE	Room	...Aye, Captain.	A long pause first. He understands what it means.
+galley_coffee	CHIEF	Phone	I'll send the porter up. If he can make it along the tunnel.	A dry laugh.
+# ---------------------------------------------------------------- radio: check-ins and weather
+capt_and_checkin	CAPTAIN	Radio	Anderson, Fitzgerald. How's it look back there?	Radio voice.
+and_checkin_early	ANDERSON	Radio	Rough, but we're making it. You're about ten miles ahead of us.	Easy.
+and_checkin_mid	ANDERSON	Radio	Taking green water over the deck back here. You're still showing ten miles ahead.	Tense.
+and_checkin_late	ANDERSON	Radio	Worst I've ever seen it. Hang in there, Fitzgerald.	Grim.
+capt_cg_weather	CAPTAIN	Radio	Coast Guard Sault, Fitzgerald. What's the latest on the weather?	Formal.
+cg_weather_01	COASTGUARD	Radio	Fitzgerald, Sault Coast Guard. Storm warnings in effect. Northwest winds fifty knots, gusts to seventy. Seas fifteen to twenty-five feet. Over.	By the book.
+# ---------------------------------------------------------------- radio: Mayday
+capt_mayday_01	CAPTAIN	Radio	Mayday, mayday, mayday. This is the Edmund Fitzgerald, northwest of Whitefish Point. We're taking on water with a heavy list. Request assistance.	The call nobody on the real ship ever made. Steady but urgent.
+cg_mayday_early	COASTGUARD	Radio	Edmund Fitzgerald, Coast Guard Group Sault. We copy your Mayday. Say the nature of your distress. Over.	Caught off guard, then professional.
+cg_mayday_01	COASTGUARD	Radio	Fitzgerald, Sault. We have nothing that can get out to you in these seas. We're asking for an aircraft out of Traverse City. Nearest vessel to you is the Anderson. Over.	Professional, helpless.
+and_mayday_01	ANDERSON	Radio	Fitzgerald, Anderson. We heard that. We're coming up behind you as fast as she'll go.	Urgent. A friend.
+cg_mayday_repeat	COASTGUARD	Radio	Fitzgerald, Coast Guard. We copy your Mayday. Aircraft is being readied. Hold on, Fitzgerald.	Strained.
+# ---------------------------------------------------------------- AM broadcast, 1230 WGLR (news and weather)
+news_01	NEWS	Broadcast	This is WGLR, twelve-thirty on your dial. The National Weather Service has upgraded gale warnings to storm warnings for all of Lake Superior. Northwest winds thirty-five to fifty knots, waves eight to fifteen feet.	1970s small-town AM newsreader. Warm baritone, slightly fast.
+news_02	NEWS	Broadcast	Here's the marine forecast. Storm warnings, Lake Superior. Northwest winds forty-five to sixty knots tonight. Waves twelve to eighteen feet, occasionally higher. Snow showers, visibility under a mile at times.	Reading a forecast.
+news_03	NEWS	Broadcast	Around the Soo this afternoon, high winds have torn down power lines and toppled trees. Highway crews are asking folks to stay home if they can.	Local news.
+news_04	NEWS	Broadcast	Power is out across parts of Chippewa County this evening as the storm moves through. Utility crews say it may be morning before everyone's back on.	Evening news. A bit tired.
+news_05	NEWS	Broadcast	The Weather Service says the worst of it should come through tonight, with winds easing tomorrow afternoon. Stay warm out there, and keep a thought for the boys out on the lake.	Signing off a segment. Sincere.
+# ---------------------------------------------------------------- AM broadcast, 850 CKSM (music)
+dj_01	DJ	Broadcast	Eight-fifty, CKSM, Sault Ste. Marie, Ontario. It's a wild one out there tonight, folks. Here's a little something to keep the lights on.	Canadian radio DJ, cheerful, a little hokey.
+dj_02	DJ	Broadcast	CKSM. Phone lines are lit up tonight, half of you have lost power and the other half are asking us about it. Hang in there.	Chummy.
+# ---------------------------------------------------------------- AM broadcast, 1360 (the late show)
+nightdj_01	NIGHTDJ	Broadcast	You're listening to the late show. Got a request in tonight for a song about a big ore boat on Superior. Looked all through the stacks. Can't find it anywhere.	Late-night DJ, soft, a little uncanny. Slow.
+nightdj_02	NIGHTDJ	Broadcast	Maybe nobody's written it yet. Here's something quiet instead. For everybody out on the big lake tonight.	Soft, kind.
+# ---- Caribou Island: the wheelsman takes over if you steer for it ----
+mate_island_01	MATE	Room	That's Caribou Island, Captain. Off the starboard bow, low and dark. We'll leave it well to starboard.	Pointing out the window. Matter of fact.
+wheel_takes_01	WHEELSMAN	Room	I have the wheel, Captain! Caribou's close aboard. Bringing her hard around.	Sharp, loud. The one time he raises his voice.
+capt_wheel_takes	CAPTAIN	Room	You have the wheel. Hold her off it.	Quick. No argument.
+wheel_clear_01	WHEELSMAN	Room	She's clear, Captain. Steadying up on one-four-one for Whitefish. Your wheel.	Breathing out. Back to normal.
+# ---- off the course line: the Anderson notices ----
+and_offcourse_01	ANDERSON	Radio	Fitzgerald, Anderson. I show you well off the line to Whitefish. You having steering trouble up there?	Concerned, friendly.
+capt_offcourse_01	CAPTAIN	Radio	Negative, Anderson. Coming back around to one-four-one.	Brief.
+and_offcourse_02	ANDERSON	Radio	Fitzgerald, Anderson. You're still wandering. Whitefish is one-four-one from you. Come on back to it, Captain. It's no night to be out there on your own.	Firmer. He's worried now.
+capt_offcourse_02	CAPTAIN	Radio	Roger, Anderson. Coming right.	Brief.
+# ---- the watch passes: things people say when nothing much is happening ----
+idle_mate_01	MATE	Room	Glass is still dropping. Twenty-nine twenty-four and going.	Reading the barometer.
+idle_mate_02	MATE	Room	Lowest I've seen it on this lake.	Quiet.
+idle_mate_03	MATE	Room	She's riding it, Captain. Heavy, but she's riding it.	Reassuring himself as much as you.
+idle_mate_04	MATE	Room	Snow's closing in again. Can't see the stern from here.	Looking aft.
+idle_mate_05	MATE	Room	Those hatch clamps had better be holding. That's green water going over them.	Watching the deck.
+idle_mate_06	MATE	Room	Another couple of hours and we'll have Whitefish under our lee.	Hopeful.
+idle_wheel_01	WHEELSMAN	Room	She wants to fall off to starboard every time one comes under the quarter.	Working the wheel.
+idle_wheel_02	WHEELSMAN	Room	Holding one-four-one, Captain. Give or take.	Dry.
+idle_wheel_03	WHEELSMAN	Room	Felt that one through the wheel.	After a big sea.
+idle_chief_01	CHIEF	Phone	Engine room. All's well down here, Captain. She's turning a hundred and twelve and burning clean.	Routine report.
+idle_chief_02	CHIEF	Phone	Bridge, engine room. We've got water coming down the tunnel from somewhere forward. Pumps are keeping up. For now.	Measured. The "for now" is the point.
+idle_watch_01	WATCHMAN	Phone	Bridge, after house. Spray's freezing on the rails back here. Nobody's going out on that deck.	Shouting over the wind.
+idle_and_01	ANDERSON	Radio	Fitzgerald, Anderson. How's she riding up there?	Easy radio manner.
+capt_and_riding	CAPTAIN	Radio	Riding heavy, Anderson. Taking some over the bow, but she's doing fine.	Calm.
+idle_and_02	ANDERSON	Radio	Fitzgerald, Anderson. We just took a big one over the stern. Lost a lifeboat cover. You watch yourself up there.	Shaken a little, hiding it.
+capt_and_ack	CAPTAIN	Radio	Roger that, Anderson. Fitzgerald out.	Brief.
+idle_mate_night_01	MATE	Room	Dark as the inside of a cow out there. Not a light anywhere.	Low.
+idle_mate_night_02	MATE	Room	We'd be raising Whitefish light by now. If it was lit.	Bitter.
+idle_wheel_night_01	WHEELSMAN	Room	Seas are coming higher than the pilothouse now, Captain. I've never seen that.	Quiet awe.
+# ---- the end ----
+chief_end_01	CHIEF	Phone	Bridge! We're taking water in the tunnel, it's coming down the... it's over the...	Shouting over machinery. Cuts off mid-word.
+watch_end_01	WATCHMAN	Phone	Captain, the whole deck's gone under! She's not coming up! She's not...	Panic. Cuts off.
+# ---- more AM radio ----
+news_06	NEWS	Broadcast	The National Weather Service has upgraded its gale warning for Lake Superior to a storm warning, with winds to sixty knots and seas of twenty feet or more. All shipping is advised to seek shelter.	Flat bulletin voice.
+news_07	NEWS	Broadcast	In Sault Ste. Marie, the Coast Guard reports several vessels anchored in Whitefish Bay riding out tonight's storm. Power is out across much of the eastern Upper Peninsula.	Flat.
+news_08	NEWS	Broadcast	The forecast for the Soo: snow tonight, heavy at times, with northwest winds gusting past fifty. Temperatures in the twenties. Drive carefully out there.	Winding down.
+dj_03	DJ	Broadcast	Okay, it's eight-fifty on your dial, and if you're out on the big lake tonight, friend, this one's for you. Keep her pointed into it.	Warm, a little too cheerful.
+dj_04	DJ	Broadcast	That was a little something to warm you up. Temperature here at the station is thirty-one degrees and dropping. Snow in the forecast. Who'd have guessed.	Chuckling at himself.
+nightdj_03	NIGHTDJ	Broadcast	If you're hearing this, you're a long way from anywhere. Stay with me. I'll keep the lights on.	Soft. Almost a whisper.
+cg_weather_02	COASTGUARD	Radio	Fitzgerald, Coast Guard Sault. Latest from Marquette: winds northwest fifty-five to sixty-five knots, seas eighteen to twenty-five feet, snow, visibility near zero. Storm warning remains in effect. Over.	By the book.
