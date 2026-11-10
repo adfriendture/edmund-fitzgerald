@@ -15,9 +15,7 @@ Get the Mac or Windows zip from the [Releases](../../releases) page, unzip it an
 
 - **Windows:** run `Edmund Fitzgerald.exe`. If SmartScreen warns about an unknown publisher, choose
   *More info → Run anyway*.
-- **Mac (Apple Silicon):** the app isn't notarized by Apple, so the first time, **right-click** (or Control-click)
-  `Edmund Fitzgerald.app` and choose **Open**, then **Open** again. After that it opens normally. If macOS still
-  refuses, run `xattr -dr com.apple.quarantine "Edmund Fitzgerald.app"` in Terminal.
+- **Mac (Apple Silicon):** open `Edmund Fitzgerald.app`. It is signed and notarized by Apple.
 
 Play with headphones. There are no recorded voices yet; every line is shown as a subtitle.
 
